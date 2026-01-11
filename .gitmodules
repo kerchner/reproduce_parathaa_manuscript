@@ -1,0 +1,6 @@
+[submodule "manuscript_parathaa"]
+	path = manuscript_parathaa
+	url = https://github.com/kerchner/manuscript_parathaa.git
+[submodule "parathaa"]
+	path = parathaa
+	url = https://github.com/kerchner/parathaa.git
