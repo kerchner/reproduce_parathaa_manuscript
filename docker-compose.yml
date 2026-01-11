@@ -1,0 +1,11 @@
+services:
+  ubuntu24:
+    platform: linux/amd64
+    build: .
+    container_name: ubuntu24-dev
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+
