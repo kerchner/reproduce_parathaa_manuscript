@@ -38,7 +38,7 @@ Move into the manuscript code folder.  `parathaa` is installed in a parallel fol
 cd manuscript_parathaa
 ```
 
-Run the manuscript code as per authors' intstructions:
+Run the manuscript code as per authors' intstructions.  **NOTE**: The code is non-idempotic, so any artifacts of a previous run must be reset before running again.  In particular, `manuscript_parathaa` has many files which are changed, added, and deleted; this must be set back to its original state.
 
 ```
 python run.py --paraDir ../parathaa/ -o output
