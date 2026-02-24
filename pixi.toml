@@ -1,6 +1,6 @@
 [workspace]
 authors = ["kerchner@gwu.edu <kerchner@gwu.edu>"]
-channels = ["conda-forge", "bioconda"]
+channels = ["conda-forge", "bioconda", "biobakery"]
 name = "manuscript_parathaa"
 platforms = ["linux-64"]
 version = "0.1.0"
@@ -8,7 +8,6 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = ">=3.14.2,<3.15"
 r-docopt = ">=0.7.2,<0.8"
 anadama2 = ">=0.10.0,<0.11"
 mothur = ">=1.48.3,<2"
@@ -18,3 +17,7 @@ r-seqinr = ">=4.2_36,<5"
 r-stringr = "<1.6.0"
 r-base = ">=4.4.3,<4.5"
 r-readr = ">=2.2.0,<3"
+pplacer = ">=1.1.alpha19,<2"
+fasttree = ">=2.2.0,<3"
+parathaa = ">=0.2.1,<0.3"
+python = ">=3.12.12,<3.13"
